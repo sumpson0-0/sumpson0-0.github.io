@@ -1,8 +1,5 @@
 module.exports = {
   /** Site MetaData (Required all)*/
-  title: `Title`,                           // (* Required)
-  description: `Blog Description`,          // (* Required)
-  author: `Author`,                         // (* Required)
   language: 'ko-KR',                        // (* Required) html lang, ex. 'en' | 'en-US' | 'ko' | 'ko-KR' | ...
   siteUrl: 'https://',                      // (* Required)
     // ex.'https://junhobaik.github.io'
