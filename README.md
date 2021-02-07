@@ -6,4 +6,8 @@
 
 
 Front-End 개발을 중심으로 배움을 기록해나가는 개발 블로그입니다.  
+
+<br>
+<br>
+
 (Theme by JunhoBaik / Built with Gatsby)
