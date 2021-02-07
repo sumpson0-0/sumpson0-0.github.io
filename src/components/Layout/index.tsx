@@ -59,6 +59,11 @@ const Layout = (props: LayoutPropsType) => {
     <>
       <Helmet>
         <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+        <script
+          data-ad-client="ca-pub-1707695830238790"
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+        ></script>
         <meta name="google-site-verification" content={config.googleSearchConsole ?? ''} />
         <style>{FaDom.css()}</style>
       </Helmet>
