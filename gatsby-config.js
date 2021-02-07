@@ -16,7 +16,12 @@ const gatsbyConfig = {
     `gatsby-transformer-sharp`,
 
     `gatsby-plugin-sharp`,
-
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `sumlog-1`,
+      },
+    },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -155,7 +160,7 @@ const gatsbyConfig = {
           }
       }`,
         serialize: ({ site, allSitePage }) => {
-          return allSitePage.edges.map(edge => {
+          return allSitePage.edges.map((edge) => {
             return {
               url: site.siteMetadata.siteUrl + edge.node.path,
               changefreq: `daily`,
@@ -185,7 +190,7 @@ const gatsbyConfig = {
         feeds: [
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.edges.map(edge => {
+              return allMarkdownRemark.edges.map((edge) => {
                 return Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.excerpt,
                   date: edge.node.frontmatter.date,
