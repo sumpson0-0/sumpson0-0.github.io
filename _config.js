@@ -4,7 +4,7 @@ module.exports = {
   description: `Front-End를 중심으로 개발에 대한 배움을 기록하는 공간입니다.`,          // (* Required)
   author: `Sumin Kim`,                         // (* Required)
   language: 'ko-KR',                        // (* Required) html lang, ex. 'en' | 'en-US' | 'ko' | 'ko-KR' | ...
-  siteUrl: 'https://sumpson0-0.github.io',                      // (* Required)
+  siteUrl: 'https://sumin-kim.web.app/',                      // (* Required)
     // ex.'https://junhobaik.github.io'
     // ex.'https://junhobaik.github.io/' << X, Do not enter "/" at the end.
 
@@ -18,8 +18,8 @@ module.exports = {
   name: 'Sumin Kim',
   company: '',
   location: 'Korea',
-  email: 'sumpson00@gmail.com',
-  website: 'https://sumpson0-0.github.io',           // ex.'https://junhobaik.github.io'
+  email: 'suminkim.me@gmail.com',
+  website: 'https://sumin-kim.web.app/',           // ex.'https://junhobaik.github.io'
   linkedin: 'https://www.linkedin.com/in/sumin-kim-434279204/',                                                          // ex.'https://www.linkedin.com/in/junho-baik-16073a19ab'
   facebook: '',                                                          // ex.'https://www.facebook.com/zuck' or 'https://www.facebook.com/profile.php?id=000000000000000'
   instagram: '',                                                         // ex.'https://www.instagram.com/junhobaik'
