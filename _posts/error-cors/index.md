@@ -63,6 +63,8 @@ CORS에 대해 알기 위해서는 동일 출처 정책(SOP)을 알고 넘어가
 
 ### 1. 서버측에서 응답 헤더에 'Access-Control-Allow-Origin'을 설정한다.
 
+<br />
+
 서버는 ‘Access-Control-Allow-Origin’에 허용할 출처(origin)를 입력하고 이를 응답 헤더에 넣음으로써 CORS 정책을 허용할 수 있도록 한다.
 
  **‘Access-Control-Allow-Origin’**은 **CORS 정책에 허용할 출처를 명시하는 헤더**이다. 리소스 접근을 허용할 특정 출처를 입력하거나 (*)를 사용하여 모든 출처를 허용할 수 있다. 
